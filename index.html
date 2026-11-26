@@ -67,6 +67,17 @@ footer{background:var(--orange);color:#fff;text-align:center;font-weight:600;fon
  .page{grid-template-columns:1fr;gap:20px;padding:24px 16px}
  .courses{font-size:7px}
 }
+ .term{
+  margin-top:22px;
+  background:var(--card);
+  border:1px solid #ccc;
+  padding:9px 10px;
+  text-align:center;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.2px;
+  color:#b5382e;
+}
 </style>
 </head>
 <body>
@@ -93,13 +104,7 @@ footer{background:var(--orange);color:#fff;text-align:center;font-weight:600;fon
    <svg viewBox="0 0 58 58" aria-hidden="true"><path fill-rule="evenodd" d="M0 0h26v26H0zM5 5v16h16V5zM31 0h26v26H31zM36 5v16h16V5zM0 32h26v26H0zM5 37v16h16V37z"/><rect x="10" y="10" width="6" height="6"/><rect x="41" y="10" width="6" height="6"/><rect x="10" y="42" width="6" height="6"/><path d="M31 32H47V42H52V32H57V47H42V37H36V58H31Z"/><rect x="42" y="53" width="5" height="5"/><rect x="52" y="53" width="5" height="5"/></svg>
    SCAN THE QR CODE ON YOUR DOCUMENT TO VERIFY.
   </div>
-  <label for="num">ENTER STUDENT NUMBER OR REG. NO. &amp; DOCUMENT TYPE</label>
-  <div class="row">
-   <input id="num" value="2500804994">
-   <select aria-label="Document type"><option>EXAM PERMIT</option><option>PROOF OF REG.</option><option>CERTIFICATE</option><option>TRANSCRIPT</option><option>VIRTUAL ID</option><option>GRADUATION CARD</option></select>
-  </div>
-  <button class="reload" type="button">RELOAD</button>
-
+ <div class="term">SEARCH TERM: <span id="termValue">2500000001</span></div>
   <article class="permit">
    <div class="ph">
     <img alt="" src="https://documents.kyu.ac.ug/logo/institution_logo-ADF-1727950070363.png">
